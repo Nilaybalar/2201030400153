@@ -14,7 +14,7 @@ body{
 }
 .navbar{
   
-    background: rgba(228, 224, 211, 0.5);
+    background: rgb(180, 175, 158,0.5);
     text-align: right;
    
 
@@ -215,14 +215,14 @@ display: none;
     margin-top: -40px;
     margin-left: 140px;
     background: #817f7b;
-} 
+}  
 .logo3 img{
     height: 400px;
     padding-bottom: 10px;
     float: right;
-    margin-top: 38px;
-    margin-right: 90px;
-    opacity: 40%;
+    margin-top: 325px;
+    margin-right: 150px;
+   opacity: 40%;
  }
  .carrer h1{
     margin-left: 60px;

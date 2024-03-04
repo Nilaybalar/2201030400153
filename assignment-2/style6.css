@@ -9,15 +9,14 @@ body{
     align-items: center;
     min-height: 100vh;
     background: url(bg67.webp) no-repeat;
-    opacity: 40%;
     background-size:cover;
     background-position: center;
 }
 .navbar{
   
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(236, 164, 164, 0.8);
     text-align: right;
-   
+   opacity: 64%;
 
 } 
 .navbar ul{
@@ -108,7 +107,7 @@ margin-left: 10px;
     color: rgb(0, 0, 0);
 }
  .navbar ul li:hover{
-    background-color: #f9eaca;
+    background-color: #ea442e;
     border-radius: 3px;
 }
 img{
@@ -217,3 +216,103 @@ display: none;
     margin-left: 140px;
     background: #817f7b;
 } 
+.first {
+width: 0px;
+height: 0px;
+display: flex;
+text-align: center;
+display: ruby;
+
+}
+.sec {
+    width: 400px;
+    height: 300px;
+    margin-left: 20%;
+    margin-top: 30%;
+    position: relative;
+}
+.sec img{
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    opacity: 92%;
+    box-shadow: 8px 8px rgb(5, 11, 31,0.3);
+}
+.sec .txt{
+width: 100%;
+height: 100%;
+top:0;
+left: 0;
+position: absolute;
+background: rgba(183, 179, 179, 0.4);
+display: flex;
+opacity: 0;
+transition: 0.6s;
+flex-direction: column;
+justify-content:center;
+}
+.txt:hover{
+    opacity: 1;
+
+}
+.txt h1{
+    font-size: 55px;
+    color: #f14b2e;
+}
+.txt p{
+    color: rgba(236, 236, 236, 0.9);
+}
+.last{
+height: 50px;
+width: 1px;
+margin-left: 80px;
+display: flex;
+}
+.last img{
+    height: 140px;
+    opacity: 90%;
+}
+.last .txt{
+    width: 100%;
+height: 100%;
+}
+.last .txt{
+    width: 100%;
+    height: 140px;
+    top:0;
+    left: 0;
+    background: rgba(216, 211, 211, 0.4);
+    display: flex;
+    opacity: 0;
+    justify-content: center;
+    text-align: center;
+    }
+    .last .txt:hover{
+        opacity: 1;
+    
+    }
+    .last h1{
+        font-size: 55px;
+        color: rgb(24, 185, 234);
+    }
+    .d h1{
+        color: #2e2d2b;
+    }
+    .core{
+     font-size: 60px;
+     margin-left: 40px;
+     margin-top: 25px;
+  
+    }
+.last .core a:hover{
+text-decoration: none;
+color: rgb(113, 225, 227);
+}
+.last .leb h2{
+    width: 500px;
+    font-size: 40px;
+    color: #B4AF9E;
+
+}

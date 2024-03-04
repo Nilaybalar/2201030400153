@@ -239,7 +239,7 @@ display: none;
     }
     .char2 h2{
         font-size: 30px;
-       color: rgb(242, 197, 150);
+       color: rgb(231, 139, 41);
     }
     .char p{
         font-size: 20px;
@@ -257,6 +257,7 @@ color: rgb(242, 197, 150);
  .char3 p{
     width: 40%;
     height: 100%;
+  
  }
  .char3 img{
 background-size: cover;
@@ -265,13 +266,17 @@ background-size: cover;
    display: inline-flex;
    margin-left: 75px;
    margin-top: 20px;
+   box-shadow: 2px 6px rgb(43, 43, 43);
+   border-radius: 19px;
  }
  .para p{
     display: inline-flex;
     margin-left: 80px;
     width: 90px;
     margin-top: 20px;
-    color: rgb(0, 0, 0);
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
  .char4 img{
     background-size: cover;
@@ -281,4 +286,6 @@ background-size: cover;
        margin-left: 65px;
        margin-top: 40px;
        border-radius: 5px;
+       box-shadow: 2px 6px rgb(43, 43, 43);
+       border-radius: 20px;
      }
